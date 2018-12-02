@@ -1,0 +1,14 @@
+1、安装邮件服务
+vim /etc/mail.rc
+2、添加代码
+set from=xxx@xxx.com.cn smtp=mail.xxx.com.cn
+set smtp-auth-user=xxx@xxx.com.cn smtp-auth-password=123456 smtp-auth=login
+其中
+set from：发送人邮箱
+smtp：邮箱服务
+set smtp-auth-user：发送人姓名
+smtp-auth-password：密码
+smtp-auth：认证方式，一般是login，还有md5和hash
+
+
+
